@@ -28,10 +28,3 @@ test {
     //println "Test: " + systemProperties['TMP']
 }
 
-uploadArchives {
-    repositories {
-       flatDir {
-           dirs 'repos'
-       }
-    }
-}
